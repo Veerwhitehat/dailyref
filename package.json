@@ -1,0 +1,12 @@
+{
+  "name": "daily-reflection",
+  "version": "1.0.0",
+  "description": "Daily video reflection app",
+  "main": "server.py",
+  "scripts": {
+    "dev": "python3 server.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
