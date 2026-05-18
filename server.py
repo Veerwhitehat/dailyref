@@ -10,8 +10,8 @@ CORS(app)
 # Increase max upload size to 500MB
 app.config['MAX_CONTENT_LENGTH'] = 500 * 1024 * 1024
 
-VIDEO_DIR = '/tmp/videos'
-DATA_FILE = '/tmp/data.json'
+VIDEO_DIR = 'videos'
+DATA_FILE = 'data.json'
 
 if not os.path.exists(VIDEO_DIR):
     os.makedirs(VIDEO_DIR)
